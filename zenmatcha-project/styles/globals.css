@@ -1,0 +1,30 @@
+/* Custom properties */
+:root {
+  /*Primary colors*/
+  --nutmeg: hsl(14, 45%, 36%);
+  --dark-raspberry: hsl(332, 51%, 32%);
+  /*Neutral colors*/
+  --white: hsl(0, 0%, 100%);
+  --white-rose: hsl(330, 100%, 98%);
+  --eggshell: hsl(30, 54%, 90%);
+  --light-grey: hsl(30, 18%, 87%);
+  --wenge-brown: hsl(30, 10%, 34%);
+  --dark-charcoal: hsl(24, 5%, 18%);
+  /*Font*/
+  --body-font-size: 1rem;
+}
+
+body {
+    font-size: var(--body-font-size);
+    font-family: 'Outfit';
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+
