@@ -15,16 +15,40 @@
 }
 
 body {
-    font-size: var(--body-font-size);
-    font-family: 'Outfit';
+  font-size: var(--body-font-size);
+  font-family: "Outfit";
+  background-color: var(--eggshell);
+}
+
+.container {
+  background-color: var(--white);
+  height: 106.875em;
+  width: 46.125em;
+  border-radius: 20px;
+  margin-top: 7.625rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 7.625rem;
+}
+
+.headline {
+  margin-left: 2.5625rem;
+  margin-right: 2.5625rem;
+  padding-top: 2.625rem;
+  padding-bottom: 2.375rem;
+}
+
+img {
+  height: 18.75rem;
+  width: 41rem;
+  border-radius: 20px;
+  margin-bottom:2.625rem;
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 0.6875rem;
   text-align: center;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--dark-raspberry);
 }
-
-
