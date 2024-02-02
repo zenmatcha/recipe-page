@@ -61,9 +61,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 - GitHub
 
 
-Mobile min-width: 375px - 23.4375em;
-Max-width: 1023px - 63.9375em;
-Dektop view min-width: 1024px----> 64em
+
 
 If it is a desktop-first design, then desktop is the default which means I would have to code for mobile separately....
 1. go element by element to check if it stays the same in both sizes...
